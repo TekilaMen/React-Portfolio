@@ -3,27 +3,112 @@ import { Box, Grid, GridItem } from "@chakra-ui/react";
 
 function BentoGrid() {
   return (
-    <Box>
-      <Grid h={"100vh"} templateColumns="repeat(12, 1fr)" gap={"1rem"}>
-        <GridItem colSpan={9} rowSpan={2} bg="tomato" borderRadius={"1.5rem"} />
+    <Box
+      display="flex"
+      justifyContent="center"
+      alignItems="center"
+      height="100vh"
+      color={"black"}
+    >
+      <Grid
+        h={"80vh"}
+        w={"85vh"}
+        templateColumns="repeat(12, 1fr)"
+        gap={"1rem"}
+      >
+        <GridItem
+          colSpan={9}
+          rowSpan={2}
+          bg="tomato"
+          borderRadius={"1.5rem"}
+          display="flex"
+          justifyContent="center"
+          alignItems="center"
+        >
+          About Me
+        </GridItem>
         <GridItem
           colSpan={3}
           rowSpan={1}
           bg="papayawhip"
           borderRadius={"1.5rem"}
-        />
+          display="flex"
+          justifyContent="center"
+          alignItems="center"
+        >
+          CV
+        </GridItem>
         <GridItem
           colSpan={3}
           rowSpan={1}
           bg="papayawhip"
           borderRadius={"1.5rem"}
-        />
-        <GridItem colSpan={3} bg="tomato" borderRadius={"1.5rem"} />
-        <GridItem colSpan={3} bg="papayawhip" borderRadius={"1.5rem"} />
-        <GridItem colSpan={6} bg="tomato" borderRadius={"1.5rem"} />
-        <GridItem colSpan={6} bg="papayawhip" borderRadius={"1.5rem"} />
-        <GridItem colSpan={3} bg="tomato" borderRadius={"1.5rem"} />
-        <GridItem colSpan={3} bg="papayawhip" borderRadius={"1.5rem"} />
+          display="flex"
+          justifyContent="center"
+          alignItems="center"
+        >
+          LinkedIn
+        </GridItem>
+        <GridItem
+          colSpan={3}
+          bg="tomato"
+          borderRadius={"1.5rem"}
+          display="flex"
+          justifyContent="center"
+          alignItems="center"
+        >
+          Mail
+        </GridItem>
+        <GridItem
+          colSpan={3}
+          bg="papayawhip"
+          borderRadius={"1.5rem"}
+          display="flex"
+          justifyContent="center"
+          alignItems="center"
+        >
+          Picture
+        </GridItem>
+        <GridItem
+          colSpan={6}
+          bg="tomato"
+          borderRadius={"1.5rem"}
+          display="flex"
+          justifyContent="center"
+          alignItems="center"
+        >
+          Github
+        </GridItem>
+        <GridItem
+          colSpan={6}
+          bg="papayawhip"
+          borderRadius={"1.5rem"}
+          display="flex"
+          justifyContent="center"
+          alignItems="center"
+        >
+          Projects
+        </GridItem>
+        <GridItem
+          colSpan={3}
+          bg="tomato"
+          borderRadius={"1.5rem"}
+          display="flex"
+          justifyContent="center"
+          alignItems="center"
+        >
+          Discord
+        </GridItem>
+        <GridItem
+          colSpan={3}
+          bg="papayawhip"
+          borderRadius={"1.5rem"}
+          display="flex"
+          justifyContent="center"
+          alignItems="center"
+        >
+          Instagram
+        </GridItem>
       </Grid>
     </Box>
   );
