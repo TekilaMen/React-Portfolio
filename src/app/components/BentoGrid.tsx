@@ -79,7 +79,13 @@ function BentoGrid() {
           justifyContent="center"
           alignItems="center"
         >
-          Mail
+          <Image
+            src="/images/mail_icon.svg"
+            alt="Instagram Icon"
+            boxSize="50px"
+            objectFit="cover"
+            borderRadius="full"
+          />
         </GridItem>
         <GridItem
           colSpan={3}
@@ -90,7 +96,13 @@ function BentoGrid() {
           justifyContent="center"
           alignItems="center"
         >
-          LinkedIn
+          <Image
+            src="/images/linkedin_icon.svg"
+            alt="Instagram Icon"
+            boxSize="50px"
+            objectFit="cover"
+            borderRadius="full"
+          />
         </GridItem>
         <GridItem
           colSpan={3}
@@ -101,7 +113,13 @@ function BentoGrid() {
           justifyContent="center"
           alignItems="center"
         >
-          Discord
+          <Image
+            src="/images/discord_icon.svg"
+            alt="Instagram Icon"
+            boxSize="50px"
+            objectFit="cover"
+            borderRadius="full"
+          />
         </GridItem>
         <GridItem
           colSpan={3}
@@ -112,7 +130,13 @@ function BentoGrid() {
           justifyContent="center"
           alignItems="center"
         >
-          <Image src="" alt="Instagram Icon" />
+          <Image
+            src="/images/instagram_icon.svg"
+            alt="Instagram Icon"
+            boxSize="50px"
+            objectFit="cover"
+            borderRadius="full"
+          />
         </GridItem>
       </Grid>
     </Box>
