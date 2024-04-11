@@ -47,7 +47,27 @@ function BentoGrid() {
           justifyContent="center"
           alignItems="center"
         >
-          LinkedIn
+          Picture
+        </GridItem>
+        <GridItem
+          colSpan={6}
+          bg="papayawhip"
+          borderRadius={"1.5rem"}
+          display="flex"
+          justifyContent="center"
+          alignItems="center"
+        >
+          Projects
+        </GridItem>
+        <GridItem
+          colSpan={6}
+          bg="tomato"
+          borderRadius={"1.5rem"}
+          display="flex"
+          justifyContent="center"
+          alignItems="center"
+        >
+          Github
         </GridItem>
         <GridItem
           colSpan={3}
@@ -67,27 +87,7 @@ function BentoGrid() {
           justifyContent="center"
           alignItems="center"
         >
-          Picture
-        </GridItem>
-        <GridItem
-          colSpan={6}
-          bg="tomato"
-          borderRadius={"1.5rem"}
-          display="flex"
-          justifyContent="center"
-          alignItems="center"
-        >
-          Github
-        </GridItem>
-        <GridItem
-          colSpan={6}
-          bg="papayawhip"
-          borderRadius={"1.5rem"}
-          display="flex"
-          justifyContent="center"
-          alignItems="center"
-        >
-          Projects
+          LinkedIn
         </GridItem>
         <GridItem
           colSpan={3}
