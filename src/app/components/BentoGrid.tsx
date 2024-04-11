@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Box, Grid, GridItem } from "@chakra-ui/react";
+import { Box, Grid, GridItem, Image } from "@chakra-ui/react";
 
 function BentoGrid() {
   return (
@@ -12,7 +12,7 @@ function BentoGrid() {
     >
       <Grid
         h={"80vh"}
-        w={"85vh"}
+        w={"80vh"}
         templateColumns="repeat(12, 1fr)"
         gap={"1rem"}
       >
@@ -30,7 +30,8 @@ function BentoGrid() {
         <GridItem
           colSpan={3}
           rowSpan={1}
-          bg="papayawhip"
+          bg="rgba(30, 90, 40, 0.83)"
+          color={"white"}
           borderRadius={"1.5rem"}
           display="flex"
           justifyContent="center"
@@ -71,7 +72,8 @@ function BentoGrid() {
         </GridItem>
         <GridItem
           colSpan={3}
-          bg="tomato"
+          bg="rgba(191, 0, 24, 0.68)"
+          color={"white"}
           borderRadius={"1.5rem"}
           display="flex"
           justifyContent="center"
@@ -81,7 +83,8 @@ function BentoGrid() {
         </GridItem>
         <GridItem
           colSpan={3}
-          bg="papayawhip"
+          bg="rgba(0, 86, 183, 0.34)"
+          color={"white"}
           borderRadius={"1.5rem"}
           display="flex"
           justifyContent="center"
@@ -91,7 +94,8 @@ function BentoGrid() {
         </GridItem>
         <GridItem
           colSpan={3}
-          bg="tomato"
+          color={"white"}
+          bg="#101010"
           borderRadius={"1.5rem"}
           display="flex"
           justifyContent="center"
@@ -101,13 +105,14 @@ function BentoGrid() {
         </GridItem>
         <GridItem
           colSpan={3}
-          bg="papayawhip"
+          color={"white"}
+          bg="linear-gradient(45deg, rgb(196, 99, 0) 0%, rgb(186, 53, 7) 25%, rgb(200, 16, 45) 50%, rgb(187, 16, 85) 75%, rgb(171, 5, 119) 100%)"
           borderRadius={"1.5rem"}
           display="flex"
           justifyContent="center"
           alignItems="center"
         >
-          Instagram
+          <Image src="" alt="Instagram Icon" />
         </GridItem>
       </Grid>
     </Box>
