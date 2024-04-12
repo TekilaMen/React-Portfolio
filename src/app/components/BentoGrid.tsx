@@ -11,8 +11,8 @@ function BentoGrid() {
       color={"black"}
     >
       <Grid
-        h={"90vh"}
-        w={"95vh"}
+        h={"75vh"}
+        w={"80vh"}
         templateColumns="repeat(12, 1fr)"
         gap={"1rem"}
       >
@@ -49,15 +49,20 @@ function BentoGrid() {
         <GridItem
           colSpan={3}
           rowSpan={1}
-          bgImage={"url('/images/me.jpg')"}
-          bgPosition="center"
-          bgRepeat="no-repeat"
-          bgSize="cover"
+          bg={"papayawhip"}
           borderRadius={"1.5rem"}
           display="flex"
           justifyContent="center"
           alignItems="center"
-        ></GridItem>
+        >
+          <Image
+            src="/images/essay.png"
+            alt="CV Icon"
+            boxSize="50px"
+            objectFit="cover"
+            borderRadius="full"
+          />
+        </GridItem>
         <GridItem
           colSpan={6}
           bgImage={"url('/images/project.gif')"}
