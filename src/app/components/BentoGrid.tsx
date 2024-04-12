@@ -34,6 +34,7 @@ function BentoGrid() {
             borderRadius={"50%"}
             boxSize="150px"
             src="https://bit.ly/dan-abramov"
+            objectFit={"cover"}
             alt="Dan Abramov"
           /> */}
           <p>Hi, I'm STEPHAN Léo</p>
