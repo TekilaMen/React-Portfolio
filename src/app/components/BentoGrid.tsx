@@ -11,9 +11,10 @@ function BentoGrid() {
       color={"black"}
     >
       <Grid
-        h={"70vh"}
-        w={"70vh"}
+        h={"80vh"}
+        w={"80vh"}
         templateColumns="repeat(12, 1fr)"
+        templateRows="repeat(4, 1fr)"
         gap={"1rem"}
       >
         <GridItem
@@ -30,13 +31,13 @@ function BentoGrid() {
           gap={"2rem"}
           padding="2rem"
         >
-          {/* <Image
+          <Image
             borderRadius={"50%"}
             boxSize="150px"
             src="https://bit.ly/dan-abramov"
             objectFit={"cover"}
             alt="Dan Abramov"
-          /> */}
+          />
           <p>Hi, I'm STEPHAN Léo</p>
           <p>Web Developer</p>
         </GridItem>
@@ -53,7 +54,7 @@ function BentoGrid() {
           <Image
             src="/images/essay.png"
             alt="CV Icon"
-            boxSize="50px"
+            boxSize="75px"
             objectFit="cover"
             borderRadius="full"
           />
@@ -66,18 +67,10 @@ function BentoGrid() {
           display="flex"
           justifyContent="center"
           alignItems="center"
-        >
-          <Image
-            src="/images/essay.png"
-            alt="CV Icon"
-            boxSize="50px"
-            objectFit="cover"
-            borderRadius="full"
-          />
-        </GridItem>
+        ></GridItem>
         <GridItem
           colSpan={6}
-          rowSpan={2}
+          rowSpan={1}
           bgImage={"url('/images/project.gif')"}
           bgPosition="center"
           bgRepeat="no-repeat"
@@ -91,7 +84,7 @@ function BentoGrid() {
         </GridItem>
         <GridItem
           colSpan={6}
-          rowSpan={2}
+          rowSpan={1}
           bgImage={"url('/images/cat-work.gif')"}
           color={"white"}
           bgPosition="center"
@@ -116,7 +109,7 @@ function BentoGrid() {
           <Image
             src="/images/mail_icon.svg"
             alt="Instagram Icon"
-            boxSize="50px"
+            boxSize="100px"
             objectFit="cover"
             borderRadius="full"
           />
@@ -133,7 +126,7 @@ function BentoGrid() {
           <Image
             src="/images/linkedin_icon.svg"
             alt="Instagram Icon"
-            boxSize="50px"
+            boxSize="75px"
             objectFit="cover"
             borderRadius="full"
           />
@@ -150,7 +143,7 @@ function BentoGrid() {
           <Image
             src="/images/discord_icon.svg"
             alt="Instagram Icon"
-            boxSize="50px"
+            boxSize="75px"
             objectFit="cover"
             borderRadius="full"
           />
@@ -167,7 +160,7 @@ function BentoGrid() {
           <Image
             src="/images/instagram_icon.svg"
             alt="Instagram Icon"
-            boxSize="50px"
+            boxSize="75px"
             objectFit="cover"
             borderRadius="full"
           />
