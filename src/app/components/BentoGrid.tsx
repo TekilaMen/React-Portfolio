@@ -11,8 +11,8 @@ function BentoGrid() {
       color={"black"}
     >
       <Grid
-        h={"80vh"}
-        w={"85vh"}
+        h={"90vh"}
+        w={"95vh"}
         templateColumns="repeat(12, 1fr)"
         gap={"1rem"}
       >
@@ -30,11 +30,11 @@ function BentoGrid() {
         </GridItem>
         <GridItem
           colSpan={3}
+          rowSpan={1}
           bg="rgba(30, 90, 40, 0.83)"
           color={"white"}
           borderRadius={"1.5rem"}
           display="flex"
-          flexDirection="column"
           justifyContent="center"
           alignItems="center"
         >
@@ -45,18 +45,19 @@ function BentoGrid() {
             objectFit="cover"
             borderRadius="full"
           />
-          <p>View CV</p>
         </GridItem>
         <GridItem
           colSpan={3}
-          bg="papayawhip"
+          rowSpan={1}
+          bgImage={"url('/images/me.jpg')"}
+          bgPosition="center"
+          bgRepeat="no-repeat"
+          bgSize="cover"
           borderRadius={"1.5rem"}
           display="flex"
           justifyContent="center"
           alignItems="center"
-        >
-          Picture
-        </GridItem>
+        ></GridItem>
         <GridItem
           colSpan={6}
           bgImage={"url('/images/project.gif')"}
