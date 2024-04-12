@@ -11,8 +11,8 @@ function BentoGrid() {
       color={"black"}
     >
       <Grid
-        h={"75vh"}
-        w={"80vh"}
+        h={"70vh"}
+        w={"70vh"}
         templateColumns="repeat(12, 1fr)"
         gap={"1rem"}
       >
@@ -23,10 +23,21 @@ function BentoGrid() {
           color={"white"}
           borderRadius={"1.5rem"}
           display="flex"
-          justifyContent="center"
-          alignItems="center"
+          flexDirection="column"
+          justifyContent="flex-end"
+          alignItems="flex-start"
+          fontSize={"1.5rem"}
+          gap={"2rem"}
+          padding="2rem"
         >
-          About Me
+          {/* <Image
+            borderRadius={"50%"}
+            boxSize="150px"
+            src="https://bit.ly/dan-abramov"
+            alt="Dan Abramov"
+          /> */}
+          <p>Hi, I'm STEPHAN Léo</p>
+          <p>Web Developer</p>
         </GridItem>
         <GridItem
           colSpan={3}
@@ -65,6 +76,7 @@ function BentoGrid() {
         </GridItem>
         <GridItem
           colSpan={6}
+          rowSpan={2}
           bgImage={"url('/images/project.gif')"}
           bgPosition="center"
           bgRepeat="no-repeat"
@@ -78,6 +90,7 @@ function BentoGrid() {
         </GridItem>
         <GridItem
           colSpan={6}
+          rowSpan={2}
           bgImage={"url('/images/cat-work.gif')"}
           color={"white"}
           bgPosition="center"
