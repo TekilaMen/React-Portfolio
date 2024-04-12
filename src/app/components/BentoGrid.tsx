@@ -34,7 +34,7 @@ function BentoGrid() {
           <Image
             borderRadius={"50%"}
             boxSize="150px"
-            src="https://bit.ly/dan-abramov"
+            src="https://preview.redd.it/xda82fz2pvo91.png?auto=webp&s=a01e5aac8977216f182ad88301d664901e4b3089"
             objectFit={"cover"}
             alt="Dan Abramov"
           />
@@ -62,7 +62,12 @@ function BentoGrid() {
         <GridItem
           colSpan={3}
           rowSpan={1}
-          bg={"papayawhip"}
+          bgImage={
+            "url(https://preview.redd.it/xda82fz2pvo91.png?auto=webp&s=a01e5aac8977216f182ad88301d664901e4b3089)"
+          }
+          bgPosition="center"
+          bgRepeat="no-repeat"
+          bgSize="cover"
           borderRadius={"1.5rem"}
           display="flex"
           justifyContent="center"
