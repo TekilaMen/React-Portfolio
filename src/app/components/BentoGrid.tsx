@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Box, Grid, GridItem, Image } from "@chakra-ui/react";
+import { Box, Grid, GridItem, Image, Text } from "@chakra-ui/react";
 
 function BentoGrid() {
   return (
@@ -38,8 +38,8 @@ function BentoGrid() {
             objectFit={"cover"}
             alt="Dan Abramov"
           />
-          <p>Hi, I'm STEPHAN Léo</p>
-          <p>Web Developer</p>
+          <Text fontWeight="bold">Hi, I'm Stephan Léo</Text>
+          <Text>Web Developer</Text>
         </GridItem>
         <GridItem
           colSpan={3}
@@ -48,6 +48,7 @@ function BentoGrid() {
           color={"white"}
           borderRadius={"1.5rem"}
           display="flex"
+          flexDirection="column"
           justifyContent="center"
           alignItems="center"
         >
@@ -57,7 +58,9 @@ function BentoGrid() {
             boxSize="75px"
             objectFit="cover"
             borderRadius="full"
+            marginBottom={"1rem"}
           />
+          <Text fontSize={"1.5rem"}>View CV</Text>
         </GridItem>
         <GridItem
           colSpan={3}
