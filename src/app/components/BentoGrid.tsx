@@ -12,14 +12,15 @@ function BentoGrid() {
     >
       <Grid
         h={"80vh"}
-        w={"80vh"}
+        w={"85vh"}
         templateColumns="repeat(12, 1fr)"
         gap={"1rem"}
       >
         <GridItem
           colSpan={9}
           rowSpan={2}
-          bg="tomato"
+          bg="rgba(56, 0, 153, 0.34)"
+          color={"white"}
           borderRadius={"1.5rem"}
           display="flex"
           justifyContent="center"
@@ -29,19 +30,25 @@ function BentoGrid() {
         </GridItem>
         <GridItem
           colSpan={3}
-          rowSpan={1}
           bg="rgba(30, 90, 40, 0.83)"
           color={"white"}
           borderRadius={"1.5rem"}
           display="flex"
+          flexDirection="column"
           justifyContent="center"
           alignItems="center"
         >
-          CV
+          <Image
+            src="/images/essay.png"
+            alt="CV Icon"
+            boxSize="50px"
+            objectFit="cover"
+            borderRadius="full"
+          />
+          <p>View CV</p>
         </GridItem>
         <GridItem
           colSpan={3}
-          rowSpan={1}
           bg="papayawhip"
           borderRadius={"1.5rem"}
           display="flex"
@@ -52,7 +59,10 @@ function BentoGrid() {
         </GridItem>
         <GridItem
           colSpan={6}
-          bg="papayawhip"
+          bgImage={"url('/images/project.gif')"}
+          bgPosition="center"
+          bgRepeat="no-repeat"
+          bgSize="cover"
           borderRadius={"1.5rem"}
           display="flex"
           justifyContent="center"
@@ -62,7 +72,11 @@ function BentoGrid() {
         </GridItem>
         <GridItem
           colSpan={6}
-          bg="tomato"
+          bgImage={"url('/images/cat-work.gif')"}
+          color={"white"}
+          bgPosition="center"
+          bgRepeat="no-repeat"
+          bgSize="cover"
           borderRadius={"1.5rem"}
           display="flex"
           justifyContent="center"
